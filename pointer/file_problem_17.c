@@ -3,7 +3,7 @@ int main(){
     FILE *file;
     char name[20];
     file=fopen("sample.txt","a");
-    if(file==NULL){
+    if(file== NULL){
         printf("File doesn't exist");
     }
     else{
